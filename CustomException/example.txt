@@ -1,0 +1,83 @@
+import java.util.Scanner;
+
+// class Main
+// {
+    
+//     static void checkPass(String pass) throws Exception
+//     {
+//         String realPass = "2507";
+        
+//         if(!pass.equals(realPass))
+//         {
+//             throw new Exception("Password invalid !!!");
+//         }
+        
+//         System.out.println("Login successfully........");
+//     }
+    
+//     public static void main(String[] args)
+//     {
+//         Scanner sc = new Scanner(System.in);
+        
+//         System.out.print("Enter password: ");
+//         String pass = sc.nextLine();
+        
+//         try
+//         {
+//             checkPass(pass);
+//         }
+//         catch(Exception e)
+//         {
+//             System.out.println(e.getMessage());
+//         }
+        
+//     }
+// }
+
+
+------------------------------------------------------
+
+
+
+// class Main{
+    
+//     static void check(int a, int b) throws Exception{
+        
+//         if(a==0 || b==0){
+//             throw new Exception("0 se divide nhi hota !!!");
+//         }
+        
+//         System.out.println("Div : " + a/b);
+//     }
+    
+//     public static void main(String[] args){
+//         try{
+//             check(2,2);
+//         }
+//         catch(Exception e)
+//         {
+//             System.out.println(e);
+//         }
+//     }
+// }
+
+
+------------------------------------------------------
+
+
+// class Main {
+//     public static void main(String[] args) {
+//         int age = 10;
+        
+//         if(age<18){
+//             try{
+//                 throw new Exception("Not eligible for voat");
+//             }
+//             catch(Exception e){
+//                 System.out.println(e.getMessage());
+//             }
+//         }
+        
+//         System.out.println("Eligible foe voat");
+//     }
+// }
